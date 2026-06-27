@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Windows7掌机 | 官方发布站</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:"Microsoft Yahei",sans-serif;}
+body{background:#0b0f1b;color:#fff;overflow-x:hidden;}
+.star{position:fixed;top:0;left:0;width:100%;height:100%;z-index:-1;}
+.top-banner{width:100%;background:linear-gradient(90deg,#ff3333,#ff9900,#ff3333);text-align:center;padding:12px 0;font-size:18px;font-weight:bold;animation: flash 1.2s infinite alternate;}
+@keyframes flash{from{opacity:0.85;}to{opacity:1;}}
+nav{width:100%;background:rgba(20,25,40,0.95);display:flex;justify-content:center;gap:50px;padding:18px 0;border-bottom:1px solid #333;position:sticky;top:0;z-index:99;}
+nav a{color:#ddd;text-decoration:none;font-size:16px;transition:0.3s;}
+nav a:hover{color:#ffc107;transform:scale(1.05);}
+.user-center{position:fixed;top:14px;right:30px;background:#222;padding:8px 16px;border-radius:30px;border:1px solid #ffc107;cursor:pointer;z-index:100;}
+.container{max-width:1100px;margin:60px auto;padding:0 20px;}
+.main-title{text-align:center;font-size:48px;font-weight:bold;color:#ffc107;margin-bottom:20px;text-shadow:0 0 15px #ff9900;}
+.sub-title{text-align:center;font-size:18px;color:#ccc;margin-bottom:50px;}
+.card{background:rgba(255,255,255,0.05);border:1px solid rgba(255,193,7,0.2);border-radius:14px;padding:30px;margin:20px 0;}
+.mask{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.85);z-index:200;}
+.login-box{width:420px;background:#161b2b;margin:120px auto;padding:30px;border-radius:12px;border:1px solid #ffc107;}
+.login-box input{width:100%;padding:12px;margin:10px 0;background:#0f1422;border:1px solid #444;color:#fff;border-radius:6px;}
+.btn{width:100%;padding:13px;background:#ffc107;color:#000;font-weight:bold;border:none;border-radius:6px;cursor:pointer;margin-top:10px;}
+.fold-item{margin:15px 0;border:1px solid #333;border-radius:8px;overflow:hidden;}
+.fold-title{padding:14px;background:#1e2538;cursor:pointer;}
+.fold-content{padding:14px;display:none;color:#ddd;line-height:1.8;}
+.price-box{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin:30px 0;}
+.price-card{padding:25px;border-radius:10px;text-align:center;background:rgba(255,193,7,0.08);border:1px solid #ffc10744;}
+.biggest{grid-column:1/3;background:linear-gradient(135deg,#ff9500,#ff3333);}
+.page{display:none;}
+.active{display:block;}
+</style>
+</head>
+<body>
+<canvas class="star"></canvas>
+<div class="top-banner">🔥 Windows7掌机 · 现已【正式全网发布】限量无上限预购开启 🔥</div>
+<div class="user-center" onclick="openLogin()">个人中心</div>
+<nav>
+<a href="#" onclick="switchPage('home')">首页</a>
+<a href="#" onclick="switchPage('info')">官方信息</a>
+<a href="#" onclick="switchPage('service')">客户服务</a>
+<a href="#" onclick="switchPage('news')">最新动态</a>
+<a href="#" onclick="switchPage('buy')">立即订购</a>
+</nav>
+<div class="container">
+<div id="home" class="page active">
+<h1 class="main-title">纯正 Windows7 迷你掌机 · 正式发布</h1>
+<p class="sub-title">数万零件改造 | 30万次设备测试 | 微软官方授权 | 过Roblox反虚拟化检测</p>
+<div class="card">
+<h2>产品简介</h2>
+<p style="line-height:2;margin-top:15px;color:#ddd;">
+这是由数千次试验、数万个零件重组打造而成的<strong>真正完整 Windows7 实体迷你掌机</strong>。并非虚拟机、并非模拟器、并非套皮系统。<br><br>
+整机由<strong>原生台式机主板微型化改造</strong>而成，拥有完整C盘、D盘、E盘、魔改F盘+扩展磁盘，回收站、管理员权限、系统菜单栏、完整Windows组件全部可用。<br><br>
+开机速度仅50秒，拥有真实硬件ID，<strong>完美通过 Roblox 反虚拟机、反外挂检测</strong>，不会弹出“请在原生设备运行”报错。<br><br>
+我们提前向微软官方提交图标与系统使用申请，<strong>已获得微软官方书面同意授权</strong>，完全合规无侵权风险。
+</p>
+</div>
+<div class="card">
+<h2>创立初心 · 淋过雨，所以为别人撑伞</h2>
+<p style="line-height:2;color:#ddd;margin-top:15px;">
+为打造这台平价Windows掌机，我们批量购入<strong>七千余台原生台式电脑</strong>全部拆解、重组、微型化打磨。<br>
+项目整体亏损<strong>超十万人民币</strong>，不以盈利为目的。<br>
+只为让预算有限、学生党、普通爱好者，也能拥有一台真正、纯净、能用、不造假的正版Windows设备。
+</p>
+</div>
+</div>
+<div id="info" class="page">
+<div class="card">
+<h2>【官方完整介绍】Windows7 微型实体掌机</h2>
+<p style="line-height:2;color:#ddd;margin-top:15px;">
+1. 本设备为<strong>纯实体硬件改造</strong>，非虚拟机、非云电脑、非模拟器。<br>
+2. 全部系统组件完整：磁盘分区、注册表、管理员权限、系统更新组件、桌面组件全部正常。<br>
+3. 经过<strong>300000+次整机压力测试</strong>，稳定性极高。<br>
+4. 微软官方授权使用Windows图标、UI标识，全网唯一合规DIY微型Win7掌机。<br>
+5. 完美绕过游戏虚拟化检测，支持Roblox原生运行。<br>
+6. 预购版本为稳定测试版，<strong>7月4日全部免费直升正式版</strong>。<br>
+7. 原本限量300台，因全网爆单，现已开启<strong>无上限正规预购</strong>。
+</p>
+</div>
+</div>
+<div id="service" class="page">
+<div class="card">
+<h2>客户服务中心</h2>
+<p id="service-tip" style="color:#ff6666;font-size:18px;">⚠️ 请先登录 We will makes 账户 才可查看客服信息</p>
+<div id="service-content" style="display:none;margin-top:20px;line-height:2;">
+<p><strong>微信客服：</strong>shuijiaodoors7536989</p>
+<p><strong>QQ客服：</strong>3862873853</p>
+<p style="color:#ff5555;font-weight:bold;">❗ 重要防骗提示：此QQ客服唯一官方名称为【HD管理员】，如昵称不符，一律为骗子，请勿联系！</p>
+</div>
+</div>
+</div>
+<div id="news" class="page">
+<div class="card">
+<h2>官方最新动态公告</h2>
+<p style="line-height:2;color:#ddd;margin-top:15px;">
+✅ 2026.06.27：Windows7掌机 全网正式发布<br>
+✅ 原9月27日发布计划提前至6月30日发货<br>
+✅ 原限量300台 → 升级为<strong>无上限正规预购</strong><br>
+✅ 累计30万次设备测试全部完成<br>
+✅ 微软官方商标授权全部通过<br>
+✅ 7月4日全网统一推送正式版系统升级
+</p>
+</div>
+</div>
+<div id="buy" class="page">
+<div class="card">
+<h2>掌机订购专区（最新定价）</h2>
+<div class="price-box">
+<div class="price-card">
+<h3>普通测试版（预购）</h3>
+<p style="font-size:28px;color:#ffc107;font-weight:bold;margin:10px 0;">¥999</p>
+<p>6月30日发货｜7月4日免费转正版</p>
+</div>
+<div class="price-card">
+<h3>正式发布版（预购）</h3>
+<p style="font-size:28px;color:#ffc107;font-weight:bold;margin:10px 0;">¥1488</p>
+<p>出厂即为完整版系统</p>
+</div>
+<div class="price-card biggest">
+<h2>🔥 全站最大 · 终极至尊大礼包</h2>
+<p style="font-size:22px;">一次性获得：<br>永久VIP+永久SVIP + 免费5台掌机 + 30次免费普通/管理员账户注册权限</p>
+</div>
+</div>
+<div class="fold-item">
+<div class="fold-title" onclick="fold(this)">Q1：Windows7掌机如何注册账户？</div>
+<div class="fold-content">
+你无法直接在掌机内注册账户。本团队为小型创业团体，暂无内置注册系统。<br><br>
+1. 普通账户：需在官网花费 <strong>149港币</strong> 购买<br>
+2. 可在支付设置切换为RMB结算<br>
+3. 管理员账户：<strong>固定售价200元人民币（强制锁定）</strong><br><br>
+账户丢失可通过：密码登录、客服找回、个人主页右上角【账号找回】功能找回<br>
+个人主页可获取<strong>凭证二维码/条形码</strong>，提交检测后约2天即可恢复账户。
+</div>
+</div>
+<div class="fold-item">
+<div class="fold-title" onclick="fold(this)">Q2：如何订购掌机VIP/SVIP？</div>
+<div class="fold-content">
+<b>【普通VIP套餐】</b><br>
+✅ 7天VIP：233元<br>
+权益：免费注册管理员+普通账户、官方VIP代点充值特权（充值需输入VIP号）<br><br>
+✅ 月度VIP：699元<br>
+✅ 年度VIP（优惠半月）：799元<br><br>
+<b>【SVIP超级会员套餐】</b><br>
+✅ SVIP月卡：1700元<br>
+✅ SVIP年卡：2700元<br><br>
+部分老旧账户不支持代充功能，可直接私信客服处理。
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="mask" id="mask">
+<div class="login-box">
+<h3 style="text-align:center;margin-bottom:20px">注册 We will makes 官方账户</h3>
+<input type="text" id="user" placeholder="输入用户名">
+<input type="password" id="pwd" placeholder="输入密码">
+<button class="btn" onclick="register()">立即注册</button>
+<p id="reg-tip" style="text-align:center;margin-top:15px;color:#ccc;"></p>
+<button class="btn" style="background:#444;margin-top:10px;" onclick="closeLogin()">关闭</button>
+</div>
+</div>
+<script>
+function switchPage(id){
+document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+document.getElementById(id).classList.add('active');
+}
+function openLogin(){
+document.getElementById('mask').style.display="block";
+}
+function closeLogin(){
+document.getElementById('mask').style.display="none";
+}
+function register(){
+let u = document.getElementById('user').value.trim();
+let p = document.getElementById('pwd').value.trim();
+if(u && p){
+document.getElementById('reg-tip').innerText="✅ 注册成功！已自动登录We will makes账户";
+setTimeout(()=>{
+closeLogin();
+document.getElementById('service-tip').innerText="✅ 已登录，客服信息已解锁";
+document.getElementById('service-content').style.display="block";
+},800);
+}else{
+document.getElementById('reg-tip').innerText="❌ 请输入完整用户名和密码";
+}
+}
+function fold(dom){
+let con = dom.nextElementSibling;
+con.style.display = con.style.display==="block"?"none":"block";
+}
+//星空背景
+const canvas = document.querySelector('.star');
+const ctx = canvas.getContext('2d');
+function resizeCanvas(){
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+}
+resizeCanvas();
+let stars = [];
+for(let i=0;i<180;i++){
+stars.push({
+x:Math.random()*canvas.width,
+y:Math.random()*canvas.height,
+r:Math.random()*1.2,
+speed:Math.random()*0.4
+});
+}
+function draw(){
+ctx.clearRect(0,0,canvas.width,canvas.height);
+ctx.fillStyle="#ffffff";
+stars.forEach(s=>{
+ctx.beginPath();
+ctx.arc(s.x,s.y,s.r,0,Math.PI*2);
+ctx.fill();
+s.y += s.speed;
+if(s.y > canvas.height){
+s.y = 0;
+s.x = Math.random()*canvas.width;
+}
+});
+requestAnimationFrame(draw);
+}
+draw();
+window.addEventListener('resize',resizeCanvas);
+</script>
+</body>
+</html>
